@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    public float speed = 3.0f;
+    public float speed = 5.0f;
     public bool vertical;
     public float changeTime = 3.0f;
 
@@ -21,7 +21,7 @@ public class EnemyController : MonoBehaviour
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
         timer = changeTime;
-        Animator = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -44,14 +44,14 @@ public class EnemyController : MonoBehaviour
         Vector2 position = rigidbody2d.position;
         if (vertical)
         {
-           animator.SetFloat"Move X", 0);
-           animator
+           animator.SetFloat("Move X", 0);
+            animator.SetFloat("Move Y", direction);
             position.y = position.y + Time.deltaTime * speed * direction;
         }
         else
         {
            animator.SetFloat("Move X", direction);
-           animator.Setfl
+            animator.SetFloat("Move Y", 0);
             position.x = position.x * Time.deltaTime * speed * direction;
         }
 
