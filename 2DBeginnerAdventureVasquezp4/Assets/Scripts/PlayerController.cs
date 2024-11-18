@@ -8,6 +8,9 @@ public class PlayerController : MonoBehaviour
     public float speed = 8.0f;
     public float timeInvincible = 2.0f;
     public int maxHealth = 5;
+
+    public GameObject projectilePrefab;
+
     public int health { get { return currentHealth; } }
     public int currentHealth;
 
