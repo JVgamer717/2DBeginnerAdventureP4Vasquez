@@ -11,10 +11,7 @@ public class PlayerController : MonoBehaviour
 
     public GameObject projectilePrefab;
 
-<<<<<<< HEAD
-=======
 
->>>>>>> c2bdbea6d88cdd486f843246ff485be049c615b7
     public int health { get { return currentHealth; } }
     public int currentHealth;
 
