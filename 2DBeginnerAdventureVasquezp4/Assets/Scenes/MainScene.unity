@@ -3359,6 +3359,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 5738857612997951744, guid: 7ae2b19a21781ed459387948a19757df,
+        type: 3}
+      propertyPath: vertical
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9093878827397838852, guid: 7ae2b19a21781ed459387948a19757df,
         type: 3}
       propertyPath: m_Enabled
@@ -7314,7 +7319,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5089f37cbe8e5c249b58a101c79e1b92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collectedClip: {fileID: 8300000, guid: 173a14cf06354c643b46b235f2a4f974, type: 3}
+  collectedClip: {fileID: 8300000, guid: 11609099d6abdf14aa873f6b98925f67, type: 3}
 --- !u!4 &953544146 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1606717939151612492, guid: 43b7800fbd277a244a077df27f38568c,
@@ -145158,6 +145163,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5738857612997951744, guid: 7ae2b19a21781ed459387948a19757df,
+        type: 3}
+      propertyPath: vertical
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -149025,9 +149035,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: e8cb00566f82df74e873a4f9a4c0d78e, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e89aca52237fab64f8e311174c2a2b79, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.106
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -151405,7 +151415,7 @@ PrefabInstance:
     - target: {fileID: 4663776512539057722, guid: 7ae2b19a21781ed459387948a19757df,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.292854
+      value: 18.55
       objectReference: {fileID: 0}
     - target: {fileID: 4663776512539057722, guid: 7ae2b19a21781ed459387948a19757df,
         type: 3}
@@ -151451,6 +151461,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5738857612997951744, guid: 7ae2b19a21781ed459387948a19757df,
+        type: 3}
+      propertyPath: vertical
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -152338,6 +152353,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 127447002744698427, guid: 18c4ad79906905c44ad66ae4d41e71c0,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 1c34cdd930471c640a3a3f614a2e99c9, type: 3}
+    - target: {fileID: 127447002744698427, guid: 18c4ad79906905c44ad66ae4d41e71c0,
+        type: 3}
+      propertyPath: throwSound
+      value: 
+      objectReference: {fileID: 8300000, guid: acfdd6730bbe8fd4e99c0da580686a2e, type: 3}
     - target: {fileID: 127447002744698427, guid: 18c4ad79906905c44ad66ae4d41e71c0,
         type: 3}
       propertyPath: projectilePrefab
