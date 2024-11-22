@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8579010088862897935}
   - component: {fileID: 2591045006147310472}
   - component: {fileID: 386157529689507249}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Jambi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
